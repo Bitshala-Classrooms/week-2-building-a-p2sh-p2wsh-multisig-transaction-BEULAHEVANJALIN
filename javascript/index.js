@@ -1,5 +1,8 @@
+require('dotenv').config();
+const {createTransaction} = require('./transactionBuilder');
+
 function main() {
-    // Write your code here.
+    createTransaction();
 }
 
 main();

@@ -5,7 +5,13 @@
   "scripts": {
     "test": "jest"
   },
-  "dependencies": {},
+  "dependencies": {
+    "bip32": "^4.0.0",
+    "bitcoinjs-lib": "^6.1.5",
+    "dotenv": "^16.4.5",
+    "ecpair": "^2.1.0",
+    "tiny-secp256k1": "^2.2.3"
+  },
   "devDependencies": {
     "@types/jest": "29.5.0",
     "@types/node": "18.15.11",
