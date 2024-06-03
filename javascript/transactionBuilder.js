@@ -49,7 +49,7 @@ const createTransaction = () => {
     psbt.finalizeAllInputs();
     const transaction = psbt.extractTransaction();
     console.log('Transaction Hex:', transaction.toHex());
-    fs.writeFileSync('../out.txt', transaction.toHex());
+    fs.writeFileSync('out.txt', transaction.toHex());
 };
 
 module.exports = {createTransaction};
